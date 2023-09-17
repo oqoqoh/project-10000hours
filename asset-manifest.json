@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/project-10000hours/static/js/main.036afd3b.js",
+    "main.js": "/project-10000hours/static/js/main.c39c92cc.js",
     "index.html": "/project-10000hours/index.html",
-    "main.036afd3b.js.map": "/project-10000hours/static/js/main.036afd3b.js.map"
+    "main.c39c92cc.js.map": "/project-10000hours/static/js/main.c39c92cc.js.map"
   },
   "entrypoints": [
-    "static/js/main.036afd3b.js"
+    "static/js/main.c39c92cc.js"
   ]
 }
