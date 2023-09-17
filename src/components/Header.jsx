@@ -56,8 +56,8 @@ const SloganSub = styled.p`
 export default function Header() {
     return (
         <HeadStyle>
-            <LogoClock src="../img/clock.svg" />
-            <Logo src="../img/logo.svg" />
+            <LogoClock src={process.env.PUBLIC_URL + '/img/clock.svg'} />
+            <Logo src={process.env.PUBLIC_URL + '/img/logo.svg'} />
             <Slogan>“연습은 어제의 당신보다 당신을 더 낫게 만든다.”</Slogan>
             <SloganSub>
                 <SubBold>1만 시간의 법칙</SubBold>은 <br />

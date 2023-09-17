@@ -92,7 +92,7 @@ export default function GoalCalc({ goal, days, showCalc, handleShowModal }) {
     if (loading)
         return (
             <ImageContainer>
-                <LogoClock src="../img/yellowClock.svg" />
+                <LogoClock src={process.env.PUBLIC_URL + '/img/yellowClock.svg'} />
             </ImageContainer>
         );
 

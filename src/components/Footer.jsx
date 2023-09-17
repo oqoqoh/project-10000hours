@@ -26,7 +26,7 @@ const Logo = styled.img`
 export default function Footer() {
     return (
         <Container>
-            <Logo src="../img/위니브.svg" />
+            <Logo src={process.env.PUBLIC_URL + '/img/wenivLogo.svg'} />
             <Text>
                 ※ 본 서비스 내 이미지 및 콘텐츠의 저작권은 주식회사 WeNiv에 있습니다.
                 <br />

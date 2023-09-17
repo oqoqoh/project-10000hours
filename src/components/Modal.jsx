@@ -68,7 +68,7 @@ export default function Modal({ handleShowModal }) {
         <ModalContainer>
             <Text>화이팅!!♥♥♥</Text>
             <TextSub>당신의 꿈을 응원합니다!</TextSub>
-            <Image src="../img/licat.svg"></Image>
+            <Image src={process.env.PUBLIC_URL + '/img/licat.svg'}></Image>
             <ModalCloseBtn onClick={() => handleShowModal()}>종료하고 진짜 훈련하러 가기 GO!GO!</ModalCloseBtn>
         </ModalContainer>
     );
